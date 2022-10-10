@@ -43,10 +43,12 @@ body {
     position: absolute;
     left: -100vh;
     transition: .25s;
+    z-index: 99;
 }
 .menu-lateral--ativo{
     left: 0;
-    transition: .25s;
+    transition: left .25s;
+    
 }
 
 .menu-lateral__logo {
